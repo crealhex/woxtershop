@@ -1,0 +1,356 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  outline: none;
+}
+
+body {
+  background-color: #888888;
+}
+
+.main-header {
+  /*width: 100vw;*/
+  background-color: #FFF;
+  /*height: 4.5rem;*/
+  height: 70px;
+}
+
+.header-container {
+  margin: 0 auto;
+  max-width: 1344px;
+  height: inherit;
+  align-items: center;
+  display: flex;
+  /*background-color: lime;*/
+}
+
+.header__image {
+  width: 15%;
+}
+
+.header__image img {
+  max-width: 100%;
+  display: block;
+  width: 175px;
+}
+
+.header__data {
+  width: 85%;
+}
+
+.header__data .main-menu {
+  display: flex;
+  justify-content: flex-end;
+  font-size: .775rem;
+  font-weight: 600;
+}
+
+.menu-item input {
+  border: none;
+  border-bottom: 2px solid #ddd;
+  text-align: center;
+  width: 150px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  /*background-color: red;*/
+}
+
+.menu-item:last-child::before {
+  content: '\f002';
+  display: block;
+  position: absolute;
+  color: #ddd;
+  /*font-weight: 900;*/
+  font-family: 'Font Awesome', sans-serif;
+}
+
+.menu-item {
+  list-style: none;
+  margin-left: 30px;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: #6C6C6C;
+}
+
+.main-banner {
+  background-color: #888888;
+}
+
+.banner-container {
+  height: 585px;
+}
+
+.banner__img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  display: block;
+  max-width: 100%;
+  /*opacity: .5;*/
+}
+
+.banner__data {
+  position: relative;
+  color: #fff;
+}
+
+.main-container {
+  max-width: 1344px;
+  margin: 0 auto;
+}
+
+.filter-form {
+  display: none;
+}
+
+.filter-form form {
+  margin-right: 20px;
+}
+
+/*------------------------------*/
+/*------------------------------*/
+/*------------------------------*/
+/*------------------------------*/
+/*------------------------------*/
+/*------------------------------*/
+/*------------------------------*/
+.main-input {
+  height: 50px;
+  width: 327px;
+  color: #a7b1ab;
+  border: 1px solid #cccccc;
+  margin-bottom: 0;
+  -webkit-appearance: none;
+  border-radius: 4px 0 0 4px;
+  -moz-border-radius: 4px 0 0 4px;
+  -webkit-border-radius: 4px 0 0 4px;
+  display: inline-block;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0 0 0 57px;
+  border-right: 0;
+  background: #fff url("http://seodesigns.com/projects/TD/images/search.png") 18px 15px no-repeat;
+  background-size: 18px 18px;
+  float: left;
+}
+
+.main-modelo {
+  display: none;
+}
+
+#main-submit {
+  background: #3cb13c;
+  color: #fff;
+  display: inline-block;
+  font-size: 19px;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 0;
+  -webkit-appearance: none;
+  border-radius: 0 4px 4px 0;
+  -moz-border-radius: 0 4px 4px 0;
+  -webkit-border-radius: 0 4px 4px 0;
+  width: 141px;
+  height: 50px;
+  border: 0;
+  padding-top: 0;
+  float: left;
+}
+
+#main-submit:hover {
+  background: #00a221;
+  color: #fff !important;
+  -webkit-appearance: none;
+}
+
+#main-submit-mobile {
+  display: none;
+}
+
+footer {
+  border-top: 0;
+}
+
+.main-btn {
+  display: inline-block;
+  width: 150px;
+  height: 50px;
+  border: 1px solid #cccccc;
+  padding: 0;
+  background: #ffffff url("http://seodesigns.com/projects/TD/images/main-bullet.png") 122px 23px no-repeat;
+  background-size: 6px 6px;
+  cursor: pointer;
+  outline: none;
+}
+
+.search-small {
+  font-size: 12px;
+  margin: 0;
+  color: #9B9B9B;
+  position: absolute;
+  top: 6px;
+  left: 16px;
+  display: inline-block;
+  width: 80px;
+  height: 20px;
+  text-align: left;
+}
+
+.search-large {
+  font-size: 16px;
+  margin: 0;
+  color: #4A4A4A;
+  position: absolute;
+  top: 19px;
+  left: 16px;
+  display: inline-block;
+  width: 105px;
+  height: 20px;
+  font-weight: 900;
+  text-align: left;
+}
+
+.main-form-container {
+  height: 50px;
+  position: relative;
+}
+
+ul.search-description {
+  width: 150px;
+  position: absolute;
+  background: #fff;
+  top: 49px;
+  left: 0;
+  padding: 14px 0;
+  border: 1px solid #E5E5E5;
+  display: none;
+  box-shadow: 0 2px 5px -2px rgba(0,0,0,.3);
+}
+
+.search-description li {
+  /*font-size: 16px;*/
+  font-size: .875rem;
+  color: #4A4A4A;
+  /*font-weight: 900;*/
+  display: block;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 16px;
+  cursor: pointer;
+}
+
+.search-description li:hover {
+  background: #ddd;
+}
+
+/* responsive css below */
+@media only screen and (max-width: 680px) {
+  .main-btn {
+    border-radius: 0 4px 4px 0;
+    -moz-border-radius: 0 4px 4px 0;
+    -webkit-border-radius: 0 4px 4px 0;
+    border-right: 1px solid #cccccc;
+  }
+
+  ul.search-description {
+    right: 0;
+    z-index: 9999;
+  }
+
+  .centerbox p.description {
+    width: 284px;
+    margin: 0 auto 40px auto;
+  }
+
+  .centerbox {
+    width: auto;
+    transform: translate(-50%, -60%);
+    -ms-transform: translate(-50%, -60%); /* IE 9 */
+    -webkit-transform: translate(-50%, -60%); /* Chrome, Safari, Opera */
+  }
+
+  .main-form-container {
+    width: 477px
+  }
+
+  #main-submit {
+    display: none;
+  }
+
+  #main-submit-mobile:hover {
+    background: #00a221;
+    color: #fff !important;
+    -webkit-appearance: none;
+  }
+
+  footer {
+    padding-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 515px) {
+  .main-input {
+    width: 210px;
+  }
+
+  .main-form-container {
+    width: 360px
+  }
+
+  .centerbox h1 {
+    width: 280px;
+    margin: 0 auto 15px auto;
+  }
+
+  .centerbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .cover {
+    background: rgba(0, 0, 0, 0) url("http://seodesigns.com/projects/TD/images/background.jpg") no-repeat center -175px;
+  }
+
+  .main-input {
+    width: 185px;
+    padding-left: 42px;
+    background: #ffffff url("http://seodesigns.com/projects/TD/images/search.png") 12px 15px no-repeat;
+    background-size: 18px 18px;
+  }
+
+  .main-btn {
+    width: 108px;
+    background: #ffffff url("http://seodesigns.com/projects/TD/images/main-bullet.png") 85px 23px no-repeat;
+    background-size: 6px 6px;
+  }
+
+  .main-form-container {
+    width: 293px
+  }
+
+  .search-small {
+    left: 13px;
+  }
+
+  .search-large {
+    left: 13px;
+  }
+}
+
+form {
+  position: relative;
+}

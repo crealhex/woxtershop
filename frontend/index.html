@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Woxtershop</title>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="dist/css/styles.css">
+</head>
+<body>
+  <header class="main-header">
+    <div class="header-container">
+      <div class="header__image">
+        <a href="#">
+          <img src="dist/svg/brand/woxter-shop.svg" alt="">
+        </a>
+      </div>
+      <div class="header__data">
+        <ul class="main-menu">
+          <li class="menu-item"><a href="#">Inicio</a></li>
+          <li class="menu-item"><a href="#">Catálogo</a></li>
+          <li class="menu-item"><a href="#">Contacto</a></li>
+          <li class="menu-item"><a href="#">Ingresar</a></li>
+          <!--<li class="menu-item"><a href="#">Bewertung</a></li>-->
+          <li class="menu-item"><input name="finder" placeholder="Buscar"></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <div class="main-banner">
+    <div class="owl-carousel owl-theme">
+      <div class="item">
+        <div class="banner-container">
+          <img class="banner__img" src="//picsum.photos/1920/1080/?random" alt="">
+          <!--<div class="banner__data">-->
+          <!--<h1>I can't stop!</h1>-->
+          <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid amet aspernatur blanditiis, deleniti distinctio doloremque eos iure labore laboriosam laudantium libero minus officiis provident quasi quisquam rerum saepe temporibus voluptas.</p>-->
+          <!--</div>-->
+        </div>
+      </div>
+      <div class="item">
+        <div class="banner-container">
+          <img class="banner__img" src="//picsum.photos/1920/1080/?random" alt="">
+        </div>
+      </div>
+      <div class="item">
+        <div class="banner-container">
+          <img class="banner__img" src="//picsum.photos/1920/1080/?random" alt="">
+        </div>
+      </div>
+      <div class="item">
+        <div class="banner-container">
+          <img class="banner__img" src="//picsum.photos/1920/1080/?random" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <main class="main-container">
+    <div class="filter-form">
+      <h2>Filter</h2>
+      <form id="" class="" method="get">
+        <button type="button" class="main-btn">
+          <span class="search-small">BUSCAR POR</span>
+          <span class="search-large">modelo</span>
+        </button>
+        <ul class="search-description">
+          <li>
+            Por modelo
+          </li>
+          <li>
+            Por marca
+          </li>
+        </ul>
+      </form>
+      <form id="" class="" method="get">
+        <button type="button" class="main-btn">
+          <span class="search-small">BUSCAR POR</span>
+          <span class="search-large">modelo</span>
+        </button>
+        <ul class="search-description">
+          <li>
+            Por modelo
+          </li>
+          <li>
+            Por marca
+          </li>
+        </ul>
+      </form>
+    </div>
+  </main>
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/script.js"></script>
+  <script>
+      $(document).ready(function(){
+          const owl = $('.owl-carousel');
+          owl.owlCarousel({
+              loop: true,
+              nav: false,
+              dots: true,
+              autoplay: true,
+              autoplayTimeout: 3500,
+              autoplayHoverPause:true,
+              responsive:{
+                  0:{
+                      items: 1
+                  },
+                  600:{
+                      items: 1
+                  },
+                  1000:{
+                      items: 1
+                  }
+              }
+          });
+      });
+  </script>
+</body>
+</html>

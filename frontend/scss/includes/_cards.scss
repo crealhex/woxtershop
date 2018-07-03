@@ -13,7 +13,7 @@
 [class*="--grid"] {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 30px;
+  //grid-gap: 30px;
 }
 
 .p15 {
@@ -77,10 +77,11 @@
   //border-radius: .25rem .25rem 0 0;
 }
 
-.gamma [class*="__image"] img {
+[class*="--card"] [class*="__image"] img {
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: #eee;
+  //background-color: #eee;
+  background-image: linear-gradient(#ededed, #f9f9f9);
 }
 
 h3 {

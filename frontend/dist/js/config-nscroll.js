@@ -9,7 +9,7 @@ jQuery(document).ready(function() {
 		zindex: "500",
     cursoropacitymin: 0,
     cursoropacitymax: 1,
-    cursorcolor: "#F78921",
+    cursorcolor: "#E53B43",
     cursorwidth: "8px",
     cursorborder: "0px solid #fff",
     cursorborderradius: "0px",

@@ -1,6 +1,6 @@
 .gamma {
   padding-top: 50px;
-  padding-bottom: 50px;
+  //padding-bottom: 50px;
 }
 
 .gamma__data {
@@ -9,7 +9,7 @@
   justify-content: space-between;
   margin-bottom: 15px;
   padding-left: 10px;
-  padding-right: 65px;
+  padding-right: 55px;
 }
 
 .gamma .price {
@@ -17,8 +17,13 @@
 }
 
 .gamma .category {
-  font-size: .775rem;
+  font-size: .700rem;
   font-weight: 700;
   letter-spacing: 2.5px;
+  //z-index: var(--z-tooltip);
+}
+
+.gamma__data h2,
+.gamma__data a {
   z-index: var(--z-tooltip);
 }

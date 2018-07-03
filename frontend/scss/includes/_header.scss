@@ -41,8 +41,9 @@
 .header__data .main-menu {
   display: flex;
   justify-content: flex-end;
-  font-size: .775rem;
-  font-weight: 600;
+  font-size: .800rem;
+  font-weight: 400;
+  align-items: center;
 }
 
 .menu-item input {
@@ -50,16 +51,32 @@
   border-bottom: 2px solid #ddd;
   text-align: center;
   width: 150px;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding: 5px 1.5rem;
 }
 
-.menu-item:last-child::before {
+.menu-item:nth-child(5) {
+  position: relative;
+}
+
+.menu-item:nth-child(5)::before {
   content: '\f002';
   display: block;
+  top: 5px;
   position: absolute;
   color: #ddd;
+  font-weight: 900;
   font-family: 'Font Awesome', sans-serif;
+}
+
+.menu-item:last-child a {
+  padding: 25px;
+  font-size: 1.1rem;
+  background-color: #eee;
+}
+
+.menu-item:last-child a:hover {
+  background-color: var(--second-color);
+  color: var(--clean-color);
 }
 
 .menu-item {

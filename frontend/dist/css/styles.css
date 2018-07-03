@@ -3831,8 +3831,9 @@ a:hover {
 .header__data .main-menu {
   display: flex;
   justify-content: flex-end;
-  font-size: .775rem;
-  font-weight: 600;
+  font-size: .800rem;
+  font-weight: 400;
+  align-items: center;
 }
 
 .menu-item input {
@@ -3840,16 +3841,32 @@ a:hover {
   border-bottom: 2px solid #ddd;
   text-align: center;
   width: 150px;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding: 5px 1.5rem;
 }
 
-.menu-item:last-child::before {
+.menu-item:nth-child(5) {
+  position: relative;
+}
+
+.menu-item:nth-child(5)::before {
   content: '\f002';
   display: block;
+  top: 5px;
   position: absolute;
   color: #ddd;
+  font-weight: 900;
   font-family: 'Font Awesome', sans-serif;
+}
+
+.menu-item:last-child a {
+  padding: 25px;
+  font-size: 1.1rem;
+  background-color: #eee;
+}
+
+.menu-item:last-child a:hover {
+  background-color: var(--second-color);
+  color: var(--clean-color);
 }
 
 .menu-item {
@@ -3868,7 +3885,6 @@ a:hover {
 
 .gamma {
   padding-top: 50px;
-  padding-bottom: 50px;
 }
 
 .gamma__data {
@@ -3877,7 +3893,7 @@ a:hover {
   justify-content: space-between;
   margin-bottom: 15px;
   padding-left: 10px;
-  padding-right: 65px;
+  padding-right: 55px;
 }
 
 .gamma .price {
@@ -3885,9 +3901,13 @@ a:hover {
 }
 
 .gamma .category {
-  font-size: .775rem;
+  font-size: .700rem;
   font-weight: 700;
   letter-spacing: 2.5px;
+}
+
+.gamma__data h2,
+.gamma__data a {
   z-index: var(--z-tooltip);
 }
 
@@ -4355,4 +4375,18 @@ ul.search-description {
 
 form {
   position: relative;
+}
+
+.main-footer {
+  margin-top: 50px;
+  border-top: 2px solid var(--border-color);
+  height: 160px;
+}
+
+.footer-container {
+  padding-bottom: 50px;
+}
+
+.footer-container svg {
+  fill: #999;
 }

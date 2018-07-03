@@ -3694,41 +3694,39 @@ a:hover {
 
 .owl-theme .owl-nav {
   position: absolute;
-  top: 0;
-  bottom: 0;
+  top: -56px;
   width: 100%;
   margin: auto;
   height: 54px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
 }
 
 .owl-theme .owl-nav button {
-  width: 50px;
-  height: 50px;
+  width: 25px;
+  height: 25px;
   font-size: 0;
-  border: 2px solid #FFF;
-  background-color: #EC3D62;
-  border-radius: .25rem;
+  border: none;
+  background: none;
   position: absolute;
   outline: none;
-  color: #FFF;
+  color: var(--border-color);
   transition: all .2s ease;
   z-index: 10;
 }
 
 .owl-theme .owl-nav button:first-child {
-  left: -75px;
+  right: 25px;
 }
 
 .owl-theme .owl-nav button:first-child:before,
 .owl-theme .owl-nav button:last-child:before {
   content: "\f104";
   display: block;
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
   font-weight: 900;
   font-family: 'Font Awesome', sans-serif;
   font-size: 24px;
@@ -3737,18 +3735,13 @@ a:hover {
   margin-top: -1px;
 }
 
-.owl-theme .owl-nav button:last-child {
-  right: -75px;
-}
-
 .owl-theme .owl-nav button:last-child:before {
   content: "\f105";
   margin-left: 0;
 }
 
 .owl-theme .owl-nav [class*='owl-']:hover {
-  background-color: #EC3D62;
-  color: #FFF;
+  color: var(--dark-color);
 }
 
 .owl-theme .owl-nav .disabled {
@@ -3884,7 +3877,7 @@ a:hover {
   justify-content: space-between;
   margin-bottom: 15px;
   padding-left: 10px;
-  padding-right: 10px;
+  padding-right: 65px;
 }
 
 .gamma .price {
@@ -3895,6 +3888,7 @@ a:hover {
   font-size: .775rem;
   font-weight: 700;
   letter-spacing: 2.5px;
+  z-index: var(--z-tooltip);
 }
 
 [class*="--flex"] {

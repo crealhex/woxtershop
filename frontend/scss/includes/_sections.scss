@@ -9,7 +9,7 @@
   justify-content: space-between;
   margin-bottom: 15px;
   padding-left: 10px;
-  padding-right: 10px;
+  padding-right: 65px;
 }
 
 .gamma .price {
@@ -20,4 +20,5 @@
   font-size: .775rem;
   font-weight: 700;
   letter-spacing: 2.5px;
+  z-index: var(--z-tooltip);
 }

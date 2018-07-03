@@ -61,6 +61,12 @@
   transition: none;
 }
 
+.formy {
+  background-color: var(--first-color);
+  color: var(--clean-color);
+  border: none;
+}
+
 [class*="--small"] {
   font-size: .875rem;
   padding: 4px 8px;

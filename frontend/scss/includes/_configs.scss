@@ -37,6 +37,10 @@ a:hover {
   color: var(--accent-color);
 }
 
+ol, ul {
+  list-style: none;
+}
+
 .wx-container {
   max-width: 1344px;
   margin: 0 auto;

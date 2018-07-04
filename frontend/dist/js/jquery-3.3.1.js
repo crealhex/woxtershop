@@ -22,7 +22,7 @@
 		// For environments that do not have a `window` with a `document`
 		// (such as Node.js), expose a factory as module.exports.
 		// This accentuates the need for the creation of a real `window`.
-		// e.g. var jQuery = require("jquery")(window);
+		// e.g. var jQuery = includes("jquery")(window);
 		// See ticket #14549 for more info.
 		module.exports = global.document ?
 			factory( global, true ) :
@@ -6061,7 +6061,7 @@ var rboxStyle = new RegExp( cssExpand.join( "|" ), "i" );
 
 ( function() {
 
-	// Executing both pixelPosition & boxSizingReliable tests require only one layout
+	// Executing both pixelPosition & boxSizingReliable tests includes only one layout
 	// so they're executed at the same time to save the second computation.
 	function computeStyleTests() {
 

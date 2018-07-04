@@ -1,0 +1,45 @@
+.col-55 {
+  width: 55%;
+}
+
+.col-45 {
+  width: 45%;
+}
+
+.p-detail,
+[class^="p-detail"] {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.wrapper--c-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.zoomWrapper {
+  margin: 0 auto;
+}
+
+.dt-price {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.dt-color {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.dt-description {
+  padding-top: 25px;
+  border-top: 1px solid var(--border-color);
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.dt-description p {
+  font-size: .875rem;
+  margin-bottom: 15px;
+}

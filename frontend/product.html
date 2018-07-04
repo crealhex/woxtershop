@@ -50,20 +50,19 @@
     </div>
   </header>
   <main class="wx-container mtb-50">
-    <h1 class="custom-title-1">
-      Catálogo
-      <span class="line"></span>
-    </h1>
-    <div class="main-filter col-25 f-left">
-      <h2>Ordenar por</h2>
+    <p>Inicio / Product Name</p>
+    <div class="p-detail-filter col-55 f-right">
+      <div class="card__data">
+        <h3><span class="brand">SAMSUNG</span></h3>
+        <h3><span class="model">GALAXY S9</span></h3>
+      </div>
+      <hr>
       <form action="">
-        <div class="by-price">
+        <div class="dt-price">
           <h3>Precio</h3>
-          <label>
-            <input type="range">
-          </label>
+          <p>50$ Dolares</p>
         </div>
-        <div class="by-color">
+        <div class="dt-color">
           <h3>Color</h3>
           <label>
             <input type="checkbox">Rojo
@@ -75,103 +74,37 @@
             <input type="checkbox">Negro
           </label>
         </div>
-        <div class="by-brand">
-          <h3>Marca</h3>
-          <label>
-            <input type="checkbox">Samsung
-          </label>
-          <label>
-            <input type="checkbox">Sony
-          </label>
-          <label>
-            <input type="checkbox">Apple
-          </label>
-          <label>
-            <input type="checkbox">Huawei
-          </label>
+        <div class="dt-btn">
+          <a href="cart.html" class="button--null formy">Comprar</a>
+        </div>
+        <div class="dt-description">
+          <h3>Descripción</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, in, perferendis? Aliquam, assumenda cupiditate debitis dolorum enim hic id minus nihil, optio quaerat, quo sapiente tempore ut velit voluptatem voluptatum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis fuga fugit ipsa ipsam natus vero! Ab aspernatur cumque debitis dicta, dolorem, esse eveniet facere hic libero nobis praesentium quas soluta!</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, in, perferendis? Aliquam, assumenda cupiditate debitis dolorum enim hic id minus nihil, optio quaerat, quo sapiente tempore ut velit voluptatem voluptatum? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis fuga fugit ipsa ipsam natus vero! Ab aspernatur cumque debitis dicta, dolorem, esse eveniet facere hic libero nobis praesentium quas soluta!</p>
         </div>
       </form>
     </div>
-    <div class="products col-75 f-right">
-      <div class="container--grid">
-        <div class="wrapper--card">
+    <div class="p-detail col-45 f-left">
+      <div class="container">
+        <div class="wrapper--c-detail">
           <div class="card__image">
-            <a href="product.html">
-              <img class="block--image" src="dist/img/phone/1.png" alt="">
-            </a>
-          </div>
-          <div class="card__data">
-            <h3><span class="brand">SAMSUNG</span></h3>
-            <h3><span class="model">GALAXY S9</span></h3>
-          </div>
-          <div class="card__price">
-            <a class="button--null" href="#">
-              <span>Ver más</span><span>69$</span>
-            </a>
-          </div>
-        </div>
-        <div class="wrapper--card">
-          <div class="card__image">
-            <a href="#">
-              <img class="block--image" src="dist/img/phone/2.png" alt="">
-            </a>
-          </div>
-          <div class="card__data">
-            <h3><span class="brand">SAMSUNG</span></h3>
-            <h3><span class="model">GALAXY S9</span></h3>
-          </div>
-          <div class="card__price">
-            <a class="button--null" href="#">
-              <span>Ver más</span><span>69$</span>
-            </a>
-          </div>
-        </div>
-        <div class="wrapper--card">
-          <div class="card__image">
-            <a href="#">
-              <img class="block--image" src="dist/img/phone/3.png" alt="">
-            </a>
-          </div>
-          <div class="card__data">
-            <h3><span class="brand">SAMSUNG</span></h3>
-            <h3><span class="model">GALAXY S9</span></h3>
-          </div>
-          <div class="card__price">
-            <a class="button--null" href="#">
-              <span>Ver más</span><span>69$</span>
-            </a>
-          </div>
-        </div>
-        <div class="wrapper--card">
-          <div class="card__image">
-            <a href="#">
-              <img class="block--image" src="dist/img/phone/4.png" alt="">
-            </a>
-          </div>
-          <div class="card__data">
-            <h3><span class="brand">SAMSUNG</span></h3>
-            <h3><span class="model">GALAXY S9</span></h3>
-          </div>
-          <div class="card__price">
-            <a class="button--null" href="#">
-              <span>Ver más</span><span>69$</span>
-            </a>
-          </div>
-        </div>
-        <div class="wrapper--card">
-          <div class="card__image">
-            <a href="#">
-              <img class="block--image" src="dist/img/phone/5.png" alt="">
-            </a>
-          </div>
-          <div class="card__data">
-            <h3><span class="brand">SAMSUNG</span></h3>
-            <h3><span class="model">GALAXY S9</span></h3>
-          </div>
-          <div class="card__price">
-            <a class="button--null" href="#">
-              <span>Ver más</span><span>69$</span>
-            </a>
+            <div class="product__img">
+              <img id="img_01" src="dist/img/phone/1.png" data-zoom-image="dist/img/demo/large/image1.jpg"/>
+            </div>
+            <div id="gal1">
+              <a href="#" data-image="dist/img/phone/1.png" data-zoom-image="dist/img/demo/large/image1.jpg">
+                <img src="dist/img/demo/thumb/image1.jpg" />
+              </a>
+              <a href="#" data-image="dist/img/phone/2.png" data-zoom-image="dist/img/demo/large/image2.jpg">
+                <img src="dist/img/demo/thumb/image2.jpg" />
+              </a>
+              <a href="#" data-image="dist/img/phone/3.png" data-zoom-image="dist/img/demo/large/image3.jpg">
+                <img src="dist/img/demo/thumb/image3.jpg" />
+              </a>
+              <a href="#" data-image="dist/img/phone/4.png" data-zoom-image="dist/img/demo/large/image4.jpg">
+                <img src="dist/img/demo/thumb/image4.jpg" />
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -210,6 +143,25 @@
   <script src="dist/js/jquery-3.3.1.js"></script>
   <script src="dist/js/jquery.nicescroll.min.js"></script>
   <script src="dist/js/config-nscroll.js"></script>
+  <script src="dist/js/jquery.elevateZoom-3.0.8.min.js"></script>
+  <script>
+      const galery = $("#img_01");
+
+      galery.elevateZoom({
+          zoomType: 'inner',
+          gallery: 'gal1',
+          cursor: 'crosshair',
+          galleryActiveClass: 'active',
+          imageCrossfade: true,
+          loadingIcon: 'http://www.elevateweb.co.uk/spinner.gif'
+      });
+
+      galery.bind("click", function (e) {
+          let ez = $('#img_01').data('elevateZoom');
+          $.fancybox(ez.getGalleryList());
+          return false;
+      });
+  </script>
   <script src="dist/js/owl.carousel.min.js"></script>
   <script>
       $(document).ready(function(){

@@ -1,0 +1,16 @@
+#gal1 {
+  display: flex;
+  justify-content: center;
+}
+
+/*set a border on the images to prevent shifting*/
+#gal1 img{
+  margin-top: 50px;
+  border: 2px solid transparent;
+  display: block;
+}
+
+/*Change the colour*/
+#gal1 .active img{
+  border: 2px solid #333 !important;
+}

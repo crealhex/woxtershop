@@ -1,0 +1,28 @@
+{
+  "name": "woxtershop",
+  "version": "1.0.0",
+  "description": "'Online smartphone store'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crealhex/woxtershop.git"
+  },
+  "keywords": [
+    "'IESTP",
+    "MAC'"
+  ],
+  "author": "'Crealhex'",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crealhex/woxtershop/issues"
+  },
+  "homepage": "https://github.com/crealhex/woxtershop#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-sass": "^4.0.1"
+  }
+}
